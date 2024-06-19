@@ -1,0 +1,15 @@
+{
+  "package": "com.nali.fastkraft.mixin",
+  "required": true,
+  "refmap": "${mixin_refmap}",
+  "target": "@env(DEFAULT)",
+  "minVersion": "0.8.5",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "render.MixinEntityRenderer",
+    "render.MixinRender",
+    "render.MixinRenderGlobal",
+    "render.MixinViewFrustum",
+    "server.MixinIntegratedServer"
+  ]
+}
